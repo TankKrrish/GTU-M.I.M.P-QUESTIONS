@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.rtl.min.css" integrity="sha384-q8+l9TmX3RaSz3HKGBmqP2u5MkgeN7HrfOJBLcTgZsQsbrx8WqqxdA5PuwUV9WIx" crossorigin="anonymous">
+    <style>
+      .card-img-top{
+        padding: 1px;
+        border:solid;
+        border-color: black;
+        width: 100%;
+      }
+      .container-box{
+      
+        gap: 20px;
+        padding: 2pc;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;   
+        background:linear-gradient(0deg,rgb(246,246,242) 0%,rgb(169, 184, 195) 100%);
+      }
+
+      .container-fluid{
+        background-color: #1e73be;
+        font-weight: bolder;
+        height: 5pc;
+        font-size: larger;
+        border-style: solid;
+        border-color: darkgray;
+        border-width: 4px; 
+      }
+      .align{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .branch-box{
+        padding-top: 3pc;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        margin-bottom: 7pc;
+      }
+      .paregraph{
+        font-weight: 700;
+        font-family: Inter, sans-serif;
+        font-size: 29px;
+      }
+      .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+      }
+      .button-style{
+        border-radius: 9999px;
+        padding: 10px 20px;
+        background-color: #1e73be;
+        color: #ffffff;
+        font-family: Nunito, sans-serif;
+        margin-right: 10px;
+        border-color: #ffffff; 
+      }
+      .main-class{
+        padding-left:5pc ;
+        padding-right:5pc ;
+      }
+      .merge{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2pc;
+      }
+    </style>
+</head>
+<body>
+  <div class="main-class">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <h3 style="color: white;margin-top: 2px;">
+        GTU M.I.M.P Questions 
+        </h3>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="https://gtustudy.in/gtu-books-study-material/"style="color:white">Home</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="sylabus.html"style="color:white">Syllabus</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="gtuOldpaper.html"style="color:white">Old Paper</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="gtuimpq.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="color:white">
+                M.I.M.P.Questions
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="about.html" role="button"style="color:white">
+                About
+              </a>
+              
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </nav> 
+
+      <div class="container-box align">
+        <a href="sylabus.html" >  
+          <img src="gtusyllabus.jpg" class="card-img-top" alt="...">
+        </a>
+        <a href="gtuOldpaper.html">  
+          <img src="gtuoldpaper.jpg" class="card-img-top" alt="...">
+        </a>
+        <a href="gtuimpq.html">  
+          <img src="gtuimpque.jpg" class="card-img-top" alt="...">
+        </a>
+      </div>
+      <div>
+        
+        <div class="branch-box">
+          <img src="gtudegree.jpg"style="height: 13pc; width: 30%;">  
+          <div style="background:linear-gradient(0deg,rgb(246,246,242) 0%,rgb(169, 184, 195) 100%);  height: 13pc;width: 100% ;">
+            <p class="paregraph , merge"> 07- Computer Engineering </p>
+            <div class="buttons"><a href="sylabus.html">
+              <button class="button-style">Syllabus</button>
+            </a><a href="gtuOldpaper.html">
+              <button class="button-style">Old Paper</button>
+            </a>
+              <a href="gtuimpq.html">
+                <button class="button-style">Paper Solution</button>  
+              </a>
+            </div>
+          </div>  
+        </div> 
+      </div>
+    </div> 
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
